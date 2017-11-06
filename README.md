@@ -4,9 +4,9 @@
 ## 使用说明
 - 插件依赖：
 1. 此插件依赖于 `jQuery`，因此使用前需要先引入 `jQuery`；
-2. 引入 `jQuery` 后，再引入此文件 `alertBox.js`；
-3. 弹窗样式文件单独书写在 `alertBox.css` 文件中，使用时需要引入`alertBox.css` 文件；
-4. 使用方法：通过 `$('body').alertBox({options})` 方法调用，其中`options`为传入参数的对象  
+2. 引入 `jQuery` 后，再引入 `alertBox.js`文件；
+3. 弹窗样式文件单独书写在 `alertBox.css` 文件中，因此使用时也需要引入`alertBox.css` 文件；
+4. 使用方法：通过 `$('body').alertBox({options})` 方法调用，其中`options`为传入的参数（参数格式为对象）  
   示例代码（文件均已引入）：
   ```javascript
       $('#btn').on('click', function () {
