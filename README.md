@@ -3,10 +3,10 @@
 
 ## 使用说明
 - 插件依赖：
-1. 此插件依赖于jQuery，因此使用前需要先引入jQuery；
-2. 引入jQuery后，再引入此文件（alertBox.js）；
-3. 弹窗样式文件单独书写在'alertBox.css'文件中，使用时需要引入'alertBox.css'文件；
-4. 使用方法：通过 $('body').alertBox({options}) 方法调用，其中options为传入参数对象  
+1. 此插件依赖于 `jQuery`，因此使用前需要先引入 `jQuery`；
+2. 引入 `jQuery` 后，再引入此文件 `alertBox.js`；
+3. 弹窗样式文件单独书写在 `alertBox.css` 文件中，使用时需要引入`alertBox.css` 文件；
+4. 使用方法：通过 `$('body').alertBox({options})` 方法调用，其中`options`为传入参数的对象  
   示例代码（文件均已引入）：
   ```javascript
       $('#btn').on('click', function () {
@@ -42,7 +42,7 @@ var defaults = {
   rCallback: function(){}   //右边按钮回调函数
 };
 ```
-属性支持自定义，自定义的属性传入后会覆盖默认值。
+属性支持自定义，自定义参数通过alertBox()方法的参数对象传入；传入的自定义的属性会覆盖默认值。
 
 ## 关于
 目前功能相对单一，后期会逐渐增加功能。。。
