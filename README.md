@@ -23,7 +23,7 @@
         })
       })
   ```
-具体示例请查[test.html](./test.html)
+具体示例请查看 [test.html](./test.html)
 
 - 支持自定义属性
 下面是弹窗的默认设置：
